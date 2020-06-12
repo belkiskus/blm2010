@@ -1,0 +1,16 @@
+160401039 Belkýz Kuþ
+
+Polinom kullanýlarak hesaplanan integral ile polinomsuz hesaplanan integral deðeri birbirinden farklýdýr.
+
+Polinom ile hesaplanan integralde veriler.txt dosyasýndaki veriler sýrasýyla 1.,2.,3.,4.,5.,6. dereceden polinomlara
+yaklaþtýrýlmýþ ve korelasyon deðerlerine göre en uygun polinom bulunmuþtur. Bu polinom Yamuk Yöntemi kullanýlarak
+a=9 b=82 aralýðýnda yüksekliði 0.1 olan yamuklara bölünmüþtür.Bu yamuklarýn alanlarýnýn toplanmasýyla integral
+deðeri bulunur. Gerçeðe en yakýn sonucun bulanabilmesi, yani daha az taþma ve daha az hata için deltax(yamuklarýn
+yüksekliði)'e sýfýra yakýn deðer verilir.
+
+Polinomsuz hesaplanan integralde ise veriler.txt dosyasýndaki veriler direkt kullanýlarak integral hesaplanmýþtýr.
+Elimizde ara deðerler olmadýðý için deltax 1 olarak alýnmýþtýr.
+
+Bu iki integral deðerinin farklý olmasýnýn sebebi ise polinom ile hesaplanan integralde gerçek deðerlerle deðil
+verilerle yakýnlaþtýrýlmýþ ve korelasyon deðerine göre en az hata ile uyan deðerlerle oluþturulmuþ polinomu
+kullanmamýzdýr. Bu nedenle her iki deltax'i eþit aldýðýmýzda bile sonuçlarýn farklý çýktýðý görülmüþtür.
